@@ -1,0 +1,26 @@
+---
+title: "Home"
+date: "`r format(Sys.Date(), '%d %B, %Y')`"
+bibliography: references.bib
+link-citations: true
+---
+
+## junk
+pretend analysis
+
+We'll use `egdeR` [@edger2010]
+
+## References
+
+<div id="refs"></div>
+
+<br>
+<button type="button" class="btn btn-default btn-sessioninfo" data-toggle="collapse" data-target="#sessioninfo" style="display: block;">
+<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Session information
+</button>
+</p>
+<div id="sessioninfo" class="collapse">
+```{r session-info, echo=FALSE}
+pander::pander(sessionInfo())
+```
+</div>

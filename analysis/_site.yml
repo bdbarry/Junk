@@ -1,0 +1,23 @@
+name: 'junk'
+output_dir: ../docs
+navbar:
+  title: "junk"
+  left:
+  - icon: fa-home
+    text: Home
+    href: index.html
+  - text: stuff
+    menu:
+    - text: "attempt 1"
+      href: attempt1.html
+  right:
+  - icon: fa-github
+    href: https://github.com/bdbarry/junk
+output:
+  html_document:
+    toc: yes
+    toc_float: yes
+    code_folding: hide
+    self_contained: no
+    theme: sandstone
+    highlight: textmate
